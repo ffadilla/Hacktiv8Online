@@ -25,18 +25,18 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://devauth.kode.id/signin')
 
 WebUI.setText(findTestObject('Object Repository/Dev_SignInHO/Page_HACKTIV8 Online - Authentication/input_atau_css-1cahi4q'), 
-    'kodetesting06@gmail.com')
+    'kodetesting04@yahoo.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Dev_SignInHO/Page_HACKTIV8 Online - Authentication/input_atau_css-1cahi4q_1'), 
-    '5N7hhBwerqZ476TQCukP2g==')
+    '5N7hhBwerqY1X/rpp9tfWQ==')
 
 WebUI.click(findTestObject('Object Repository/Dev_SignInHO/Page_HACKTIV8 Online - Authentication/button_sign in'))
 
-WebUI.click(findTestObject('Object Repository/Dev_SignInHO/Page_HACKTIV8 Online/a_mulai belajar'))
+WebUI.click(findTestObject('Dev_SignInHO/Page_HACKTIV8 Online/Page_HACKTIV8 Online/a_Detail program'))
 
 WebUI.click(findTestObject('Object Repository/Dev_SignInHO/Page_HACKTIV8 Online/img_my campus_css-21qrqs'))
 
-WebUI.click(findTestObject('Object Repository/Dev_SignInHO/Page_HACKTIV8 Online/a_mulai belajar_1'))
+WebUI.click(findTestObject('Dev_SignInHO/Page_HACKTIV8 Online/Page_HACKTIV8 Online/a_Detail program'))
 
 WebUI.click(findTestObject('Object Repository/Dev_SignInHO/Page_HACKTIV8 Online/a_my campus'))
 

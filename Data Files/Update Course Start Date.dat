@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Update Course Start Date</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>07506bca-f7b3-4286-ad3b-a2ae5a942644</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://hacktiv8-online-main-dev.cdnwm1wabqd5.ap-southeast-1.rds.amazonaws.com/Main?currentSchema=public</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>c2VtdWFiaXNha29kaW5n</password>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>false</value>
+      </entry>
+   </properties>
+   <query>select * from &quot;BatchProjects&quot;
+where id = '27b639df-c6dd-4d91-8790-06a95c4176c8'</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>hacktiv8jedi</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
